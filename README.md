@@ -393,13 +393,13 @@ Dari hasil pemodelan yang didapatkan terlihat pada awal grafik berbentuk mulus d
 Pemodelan 1D hanya memodelkan dalam satu arah yaitu x saja, misal hanya meninjau kedalamannya. Sementara pemodelan 2D meninjau juga arah yang lain tidak hanya satu arah tapi dua arah, yaitu x,y atau x,z, misal meninjau kedalaman dan luasannya.
 
 ## Perbedaan Model 1D dan 2D
-    **Model 1D**
+### Model 1D
     1. Cross-section tegak lurus dengan aliran sungai
     2. Water level uniform atau seragam sepanjang cross-section
     3. Kecepatan uniform sepanjang cross-section
     4. Kemiringan rendah
 
-    **Model 2D**
+### Model 2D
     1. Kecepatan arus dan gelombang tidak seragam
     2. Daerah yang di representasikan tidak hanya x, tapi (x,y) atau (x,z)
     3. Lebih cocok diterapkan pada kemiringan yang curam
