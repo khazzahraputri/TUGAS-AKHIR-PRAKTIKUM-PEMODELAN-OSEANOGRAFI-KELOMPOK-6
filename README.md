@@ -17,11 +17,11 @@ Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adve
 
 Dasar dalam membangun model 2D untuk transpor adveksi adalah persamaan matematis sebagai berikut.
 
-![image](https://user-images.githubusercontent.com/105967656/170054778-3317c8fe-7379-49b1-a391-909acb895b3b.png)
+![image](https://user-images.githubusercontent.com/105967656/170055620-b0a0f254-482e-451b-80ac-e6e521ca2f5a.png)
 
 Sedangkan dalam membangun model 2D untuk transpor dengan mekanisme difusi, dibangun dari persamaan matematis sebagai berikut.
 
-![image](https://user-images.githubusercontent.com/105967656/170054879-581108cf-9257-4e73-98ef-5d0fc8c56943.png)
+![image](https://user-images.githubusercontent.com/105967656/170055675-eb028e72-2c15-4057-b992-5c17880cd644.png)
 
 Persamaan adveksi dan difusi di atas merupakan persamaan umum yang menggambarkan proses adveksi serta difusi yang terjadi pada suatu materi sehingga untuk membentuk suatu persamaan model 2D yang mendekati proses kejadian di alam maka perlu adanya diskritisasi terhadap persamaan tersebut.
 
@@ -50,7 +50,7 @@ Syarat batas merupakan suatu kondisi yang menggambarkan kondisi di batas baik ru
 
 Syarat batas dari metode eksplisit upstream diberikan pada nilai awal (hulu) dan nilai akhir (hilir).
 
-![image](https://user-images.githubusercontent.com/105967656/170055171-d43b6197-244c-420d-aa2c-b1bc01c2d790.png)
+![image](https://user-images.githubusercontent.com/105967656/170055487-1d52a3d9-ad5e-4e3c-b3fa-9edc17fbed5e.png)
 
 ## Kriteria Kestabilan
 
@@ -58,7 +58,7 @@ Suatu metode untuk menentukan seberapa besar nilai stabilitas dari model yang di
 
 Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difusi ini adalah sebagai berikut.
 
-![image](https://user-images.githubusercontent.com/105967656/170055202-f565e24e-d5ba-4238-be6c-f6ddd405be92.png)
+![image](https://user-images.githubusercontent.com/105967656/170055540-9ed609e7-a217-47ad-a046-9aa6a7e09f4e.png)
 
 ## Pengaplikasian Adveksi-Difusi 2D dalam Bidang Oseanografi:
 
