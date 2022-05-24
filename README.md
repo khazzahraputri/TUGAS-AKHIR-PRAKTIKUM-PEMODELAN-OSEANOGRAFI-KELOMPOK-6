@@ -198,8 +198,8 @@ Dari hasil pemodelan yangdidapat, polutan mengalami difusi juga adveksi. Mengala
 
 Jika C=1 dan ad = 0, polutan mengalami pergerakan sesuai dengan arah theta, karena kecepatan polutan tidak sama dengan nol, atau memiliki kecepatan. Meskipun mengalami pergerakan, tetapi persebarannya tidak kesegala arah, peresebarannya hanya secara horizontal saja (mpenynebaran mengikuti pergerakan), hal ini karena koefisien difusi bernilai nol, yg mana koefisien difusi berpengaruh terhadap penyebaran polutan karena adanya perbedaan konsentrasi. Karena koefisien difusi bernilai nol, maka polutan ridak mengalami persebaran. Dan persebaran ke arah kanan ini disebabkan karena polutan bergerak ke arah kanan, sehingga terjadi persebaran horizontal yg disebabakan bukan karena difusi.
 
-#### C=1    Ad=0     theta = 90
-![image](https://user-images.githubusercontent.com/106042080/170070204-91b932bc-7ced-441c-9564-aadbbd8c7e9b.png)
+#### C=0    Ad=1    theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170073179-95a2523c-2286-4223-b1ff-7b58e9302754.png)
 
 Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak bergerak. Tetapi polutan tetap mengalami penyebaran, hanya saja, tidak disertai pergerakan polutan. Hal ini terjadi karena nilai C yang merupakan kecepatan polutan bernilai 0 sehingga tidak terjadi pergerakan, sementara koefisien difusi bernilai 1 sehingga terjadi persebaran polutan. Nilai C=0 ini juga menunjukkan koefisien adveksi, yang mana koefisien adveksi ini menunjukkan pergerakan (perpindahan) polutan, yang berarti dalam kasus ini polutan tidak mengalami pergerakan.
 
