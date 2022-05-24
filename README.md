@@ -171,6 +171,17 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
+### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
+
+_Timestep_ 5
+![5](https://user-images.githubusercontent.com/105967656/170051890-2e4db21f-09bd-4c1e-9084-17d000196f30.jpeg)
+
+_Timestep_ 50
+![50](https://user-images.githubusercontent.com/105967656/170052107-46c26ae8-097c-43d5-b017-e252a83ac5d9.jpeg)
+
+_Timestep_ 218
+![218](https://user-images.githubusercontent.com/105967656/170052183-7cbc3f62-dc72-4e7d-a4c3-8e53859164bc.jpeg)
+
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
 Model Hidrodinamika merupakan suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air misalnya simulasi elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter dengan melibatkan konversi massa atau kontinuitas dan hukum momentum dalam perhitungannya. Pemodelan ini memerlukan waktu yang cukup lama dikarenakan _timestep_ yang digunakan harus kecil sehingga proses _running_ model akan lama.
