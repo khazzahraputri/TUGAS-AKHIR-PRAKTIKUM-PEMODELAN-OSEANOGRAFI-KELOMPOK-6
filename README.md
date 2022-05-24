@@ -3,6 +3,8 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 # AUTHORS (KELOMPOK 16)
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
+Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. 
+
 
 # MODUL 2 : ADVEKSI-DIFUSI 2D
 Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adveksi, dan dapat dianggap dua mekanisme yang terpisah. Adveksi adalah proses perpindahan panas sebagai akibat dari adanya aliran. Difusi adaalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah.
