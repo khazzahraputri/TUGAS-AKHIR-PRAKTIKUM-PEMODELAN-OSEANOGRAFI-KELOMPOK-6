@@ -5,8 +5,8 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 1. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
 2. Firly Nur Aini_26050120140079_Oseanografi B
 3. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
-4. Nisrina Firdaus_26050120120007_Oseanografi A
-5.
+4. Muhammad Zuldiansyah_26050120130081
+5. Nisrina Firdaus_26050120120007_Oseanografi A
 6.
 7.
 
