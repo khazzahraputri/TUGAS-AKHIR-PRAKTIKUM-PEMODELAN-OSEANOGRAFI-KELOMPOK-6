@@ -179,23 +179,29 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
 ### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
-#### C=1.90 Ad=1.90  theta = 90
+#### C=1.90    Ad=1.90   theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170070798-5c3a02a1-bedf-45aa-84fd-e05483230287.png)
 
-#### C=1.90 Ad=1.90  theta = 150
+#### C=1.90    Ad=1.90   theta = 150
 ![image](https://user-images.githubusercontent.com/106042080/170070935-8c99787a-9393-4f4b-bdf1-c1ae58bfdc5c.png)
 
-#### C=1.90 Ad=1.90  theta = 225
+#### C=1.90    Ad=1.90   theta = 225
 ![image](https://user-images.githubusercontent.com/106042080/170071041-725f0868-23e7-4a01-a295-907579f0104b.png)
 
-#### C=1.90 Ad=1.90  theta = 405
+#### C=1.90    Ad=1.90   theta = 405
 ![image](https://user-images.githubusercontent.com/106042080/170071116-ba77699c-9654-4f55-b098-9fd4dd3fd5a8.png)
 
-#### C=1 Ad=0 theta = 90
+Dari hasil pemodelan yangdidapat, polutan mengalami difusi juga adveksi. Mengalami difusi dapat dilihat dari polutan yang seiring dengan bertambahnya waktu, polutan semakin menyebar dan konsentrasi semakin berkurang. Sementara dapat dikatakan mengalami adveksi karena polutan mengalami pergerakan atau perpindahan tempat, 
+
+#### C=1    Ad=0     theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170069472-94c9e04e-7d3b-4b51-a563-a64a47923004.png)
 
-#### C=1 Ad=0  theta = 90
+Jika C=1 dan ad = 0, polutan mengalami pergerakan sesuai dengan arah theta, karena kecepatan polutan tidak sama dengan nol, atau memiliki kecepatan. Meskipun mengalami pergerakan, tetapi persebarannya tidak kesegala arah, peresebarannya hanya secara horizontal saja (mpenynebaran mengikuti pergerakan), hal ini karena koefisien difusi bernilai nol, yg mana koefisien difusi berpengaruh terhadap penyebaran polutan karena adanya perbedaan konsentrasi. Karena koefisien difusi bernilai nol, maka polutan ridak mengalami persebaran. Dan persebaran ke arah kanan ini disebabkan karena polutan bergerak ke arah kanan, sehingga terjadi persebaran horizontal yg disebabakan bukan karena difusi.
+
+#### C=1    Ad=0     theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170070204-91b932bc-7ced-441c-9564-aadbbd8c7e9b.png)
+
+Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak bergerak. Tetapi polutan tetap mengalami penyebaran, hanya saja, tidak disertai pergerakan polutan. Hal ini terjadi karena nilai C yang merupakan kecepatan polutan bernilai 0 sehingga tidak terjadi pergerakan, sementara koefisien difusi bernilai 1 sehingga terjadi persebaran polutan. Nilai C=0 ini juga menunjukkan koefisien adveksi, yang mana koefisien adveksi ini menunjukkan pergerakan (perpindahan) polutan, yang berarti dalam kasus ini polutan tidak mengalami pergerakan.
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
