@@ -179,22 +179,23 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
 ### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
-#### C=1.90 Ad=1.90
-   ![image](https://user-images.githubusercontent.com/106042080/170065162-3ea214dc-ef2f-43e1-b6f7-07b309d63632.png)
+#### C=1.90 Ad=1.90  theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170070798-5c3a02a1-bedf-45aa-84fd-e05483230287.png)
 
-   _Timestep_ 5
+#### C=1.90 Ad=1.90  theta = 150
+![image](https://user-images.githubusercontent.com/106042080/170070935-8c99787a-9393-4f4b-bdf1-c1ae58bfdc5c.png)
 
-   ![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
+#### C=1.90 Ad=1.90  theta = 225
+![image](https://user-images.githubusercontent.com/106042080/170071041-725f0868-23e7-4a01-a295-907579f0104b.png)
 
-   _Timestep_ 50
+#### C=1.90 Ad=1.90  theta = 405
+![image](https://user-images.githubusercontent.com/106042080/170071116-ba77699c-9654-4f55-b098-9fd4dd3fd5a8.png)
 
-   ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
+#### C=1 Ad=0 theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170069472-94c9e04e-7d3b-4b51-a563-a64a47923004.png)
 
-   _Timestep_ 218
-
-   ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
-
-
+#### C=1 Ad=0  theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170070204-91b932bc-7ced-441c-9564-aadbbd8c7e9b.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
