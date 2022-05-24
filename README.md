@@ -13,7 +13,7 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 # MODUL 1 : ADVEKSI-DIFUSI 1D
 Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. Persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. 
 
-**ADVEKSI**
+# ADVEKSI
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Persamaan Gelombang Linear orde satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
 
 ![image](https://user-images.githubusercontent.com/92772774/170056143-b5721a31-db7f-4722-af74-c32d98a88956.png)
