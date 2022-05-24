@@ -41,7 +41,8 @@ Difusi adalah sebuah proses di mana suatu zat bergerak dari konsentrasi tinggi k
 
 ![image](https://user-images.githubusercontent.com/92772774/170095121-35ac95bd-59df-4a7a-8d4d-1013df4ba04c.png)
 
-
+## Pengaplikasian Adveksi-Difusi 1D dalam Bidang Oseanografi 
+1. Pemodelan persebaran oil spill
 
 # MODUL 2 : ADVEKSI-DIFUSI 2D
 Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adveksi, dan dapat dianggap dua mekanisme yang terpisah. Adveksi adalah proses perpindahan panas sebagai akibat dari adanya aliran. Difusi adaalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah.
