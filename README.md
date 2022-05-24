@@ -171,16 +171,19 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
-### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
+### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
 
 _Timestep_ 5
+
 ![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
 
 
 _Timestep_ 50
+
 ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
 
 _Timestep_ 218
+
 ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
