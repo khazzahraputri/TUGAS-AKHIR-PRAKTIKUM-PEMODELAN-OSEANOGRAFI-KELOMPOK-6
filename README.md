@@ -1,6 +1,8 @@
 # TUGAS-AKHIR-PRAKTIKUM-PEMODELAN-OSEANOGRAFI-KELOMPOK-16
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
 
+
+
 # AUTHORS (KELOMPOK 16)
 1. Derio Tegar Kardia_26050120140159_Oseanografi B
 2. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
@@ -10,6 +12,8 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 6. Nisrina Firdaus_26050120120007_Oseanografi A
 7.
 
+
+
 # MODUL 1 : ADVEKSI-DIFUSI 1D
 Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. Persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. 
 
@@ -17,6 +21,8 @@ Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelaj
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Persamaan Gelombang Linear orde satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
 
 ![image](https://user-images.githubusercontent.com/92772774/170056143-b5721a31-db7f-4722-af74-c32d98a88956.png)
+
+
 
 
 # MODUL 2 : ADVEKSI-DIFUSI 2D
@@ -203,6 +209,9 @@ Jika C=1 dan ad = 0, polutan mengalami pergerakan sesuai dengan arah theta, kare
 
 Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak bergerak. Tetapi polutan tetap mengalami penyebaran, hanya saja, tidak disertai pergerakan polutan. Hal ini terjadi karena nilai C yang merupakan kecepatan polutan bernilai 0 sehingga tidak terjadi pergerakan, sementara koefisien difusi bernilai 1 sehingga terjadi persebaran polutan. Nilai C=0 ini juga menunjukkan koefisien adveksi, yang mana koefisien adveksi ini menunjukkan pergerakan (perpindahan) polutan, yang berarti dalam kasus ini polutan tidak mengalami pergerakan.
 
+
+
+
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
 Model Hidrodinamika merupakan suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air misalnya simulasi elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter dengan melibatkan konversi massa atau kontinuitas dan hukum momentum dalam perhitungannya. Pemodelan ini memerlukan waktu yang cukup lama dikarenakan _timestep_ yang digunakan harus kecil sehingga proses _running_ model akan lama.
@@ -375,6 +384,9 @@ U   : Kecepatan sesaat (m/s)
 ![image](https://user-images.githubusercontent.com/105999278/169942421-16b7c95f-f9bc-487b-a121-d760da5a5166.png)
 
 Dari hasil pemodelan yang didapatkan terlihat pada awal grafik berbentuk mulus dan teratur, hingga akhirnya grafik menujukkan bentuk yang acak. Hal ini dapat terjadi karena pada awal grafik memiliki perhitungan yang masih sederhana dan nilai-nilai dari parameter oseanografi juga memberi pengaruh, dimana pada waktu awal, nilai-nilai parameter seperti amplitudo, kedalaman, kecepatan arus masih bernilai kecil atau sederhana, sehingga menghasilkan grafik yang alus, selain itu juga nilai-nilai di awal berasal dari asumsi kita, meskipun demikian bukan berarti nilai tersebut tidak sesuai dengan nilai yang ada dilapangan. Sementara grafik yang acak ini menunjukkan nilai persamaan yang sudah besar nilainya dan nilai ini menggunakan referensi dari nilai sebelumnya, juga sudah memiliki perhitungan yang kompleks yang lebih mendekati nilai nyata di lapangan, sehingga bentuk grafiknya lebih beragam.
+
+
+
 
 # MODUL 4 : MODEL HIDRODINAMIKA 2D
 ## Skema
