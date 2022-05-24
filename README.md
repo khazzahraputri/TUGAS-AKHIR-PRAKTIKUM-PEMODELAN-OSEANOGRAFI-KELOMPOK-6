@@ -2,12 +2,12 @@
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
 
 # AUTHORS (KELOMPOK 16)
-1. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
-2. Firly Nur Aini_26050120140079_Oseanografi B
-3. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
-4. Muhammad Zuldiansyah_26050120130081_Oseanografi A
-5. Nisrina Firdaus_26050120120007_Oseanografi A
-6.
+1. Derio Tegar Kardia_26050120140159
+2. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
+3. Firly Nur Aini_26050120140079_Oseanografi B
+4. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
+5. Muhammad Zuldiansyah_26050120130081_Oseanografi A
+6. Nisrina Firdaus_26050120120007_Oseanografi A
 7.
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
@@ -179,20 +179,22 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
 ### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
+    #### C=1.90 Ad=1.90
+    ![image](https://user-images.githubusercontent.com/106042080/170065162-3ea214dc-ef2f-43e1-b6f7-07b309d63632.png)
 
-_Timestep_ 5
+    _Timestep_ 5
 
-![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
+    ![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
 
-_Timestep_ 50
+    _Timestep_ 50
 
-![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
+    ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
 
-_Timestep_ 218
+    _Timestep_ 218
 
-![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
+    ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
-![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png) ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png) ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
+
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
