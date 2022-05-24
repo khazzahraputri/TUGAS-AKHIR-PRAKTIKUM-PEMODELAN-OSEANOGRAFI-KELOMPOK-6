@@ -21,7 +21,7 @@ Dasar dalam membangun model 2D untuk transpor adveksi adalah persamaan matematis
 
 Sedangkan dalam membangun model 2D untuk transpor dengan mekanisme difusi, dibangun dari persamaan matematis sebagai berikut.
 
-![2 ad](https://user-images.githubusercontent.com/105967656/169828458-50431384-0861-4ec0-be07-d24765c99f22.png)
+![image](https://user-images.githubusercontent.com/105967656/170054879-581108cf-9257-4e73-98ef-5d0fc8c56943.png)
 
 Persamaan adveksi dan difusi di atas merupakan persamaan umum yang menggambarkan proses adveksi serta difusi yang terjadi pada suatu materi sehingga untuk membentuk suatu persamaan model 2D yang mendekati proses kejadian di alam maka perlu adanya diskritisasi terhadap persamaan tersebut.
 
@@ -30,19 +30,19 @@ Diskritisasi merupakan suatu metode untuk mencari solusi persamaan secara numeri
 
 Persamaan dari metode diskritisasi untuk suku adveksi 2D adalah sebagai berikut.
 
-![3 ad](https://user-images.githubusercontent.com/105967656/169830848-0cf35f66-21a0-46a0-9672-5d42187b6d0e.png)
-![4 ad](https://user-images.githubusercontent.com/105967656/169830895-df8105d1-90eb-4b3c-bafe-9f6262aeccea.png)
+![image](https://user-images.githubusercontent.com/105967656/170054918-98e0c31c-cb32-473d-8a62-679d7b937c0b.png)
+![image](https://user-images.githubusercontent.com/105967656/170054965-6a7b28af-10b4-4395-9668-506789c57474.png)
 
 Model 2D untuk mekanisme transpor difusi dapat menggunakan pendekatan beda maju untuk turunan waktu dan beda pusat untuk turunan ruang. Indeks n untuk waktu, indeks i untuk ruang, dan koefisiesn difusi AD dianggap konstan terhadap ruang dan waktu.
 
 Persamaan diskritisasi untuk model 2D difusi adalah sebagai berikut.
 
-![5 ad](https://user-images.githubusercontent.com/105967656/169831809-82eeb46b-68ce-4fd2-b28d-dcbd04b01fdb.png) ![6 ad](https://user-images.githubusercontent.com/105967656/169831852-cd31d095-6632-4244-b769-e32124d18886.png)
+![image](https://user-images.githubusercontent.com/105967656/170055006-1a48a33e-e3be-4be5-9cf7-afe6ee956b7f.png) ![image](https://user-images.githubusercontent.com/105967656/170055047-a9a68ff5-18e3-429a-8259-4e824436dd58.png)
 
 Persamaan diskritisasi adveksi dan difusi di atas jika digabungkan menjadi persamaan berikut.
 
-![7 ad](https://user-images.githubusercontent.com/105967656/169833178-d69bb74c-367c-40a9-8c37-8e7220362b85.png)
-![8 ad](https://user-images.githubusercontent.com/105967656/169833213-c0c79c64-f80b-4874-bc45-e761f7eb2766.png)
+![image](https://user-images.githubusercontent.com/105967656/170055097-5bf5897b-cdeb-4d93-9e17-28a2094b13c4.png)
+![image](https://user-images.githubusercontent.com/105967656/170055129-239b80e2-a559-480d-9150-6d94c505632b.png)
 
 ## Penentuan Nilai Batas dan Syarat Batas
 
@@ -50,7 +50,7 @@ Syarat batas merupakan suatu kondisi yang menggambarkan kondisi di batas baik ru
 
 Syarat batas dari metode eksplisit upstream diberikan pada nilai awal (hulu) dan nilai akhir (hilir).
 
-![9 ad](https://user-images.githubusercontent.com/105967656/169835878-0370d29d-1ba3-4fcb-883d-07b348a121bd.png)
+![image](https://user-images.githubusercontent.com/105967656/170055171-d43b6197-244c-420d-aa2c-b1bc01c2d790.png)
 
 ## Kriteria Kestabilan
 
@@ -58,7 +58,7 @@ Suatu metode untuk menentukan seberapa besar nilai stabilitas dari model yang di
 
 Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difusi ini adalah sebagai berikut.
 
-![10 ad](https://user-images.githubusercontent.com/105967656/169835595-b55cf6ca-5c38-4485-8c48-8f7cc28598da.png)
+![image](https://user-images.githubusercontent.com/105967656/170055202-f565e24e-d5ba-4238-be6c-f6ddd405be92.png)
 
 ## Pengaplikasian Adveksi-Difusi 2D dalam Bidang Oseanografi:
 
