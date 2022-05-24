@@ -191,7 +191,7 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
 #### C=1.90    Ad=1.90   theta = 405
 ![image](https://user-images.githubusercontent.com/106042080/170071116-ba77699c-9654-4f55-b098-9fd4dd3fd5a8.png)
 
-Dari hasil pemodelan yangdidapat, polutan mengalami difusi juga adveksi. Mengalami difusi dapat dilihat dari polutan yang seiring dengan bertambahnya waktu, polutan semakin menyebar dan konsentrasi semakin berkurang. Sementara dapat dikatakan mengalami adveksi karena polutan mengalami pergerakan atau perpindahan tempat, 
+Dari hasil pemodelan yang didapat, seiring dengan waktu berjalan, polutan akan bergerak mengikuti arus, yang sekaligus berdifusi, dan mengalami pengurangan nilai konsentrasi. Arah polutan ini dipengaruhi oleh vektor kecepatan u dan v. Polutan mengalami difusi juga adveksi, mengalami difusi dapat dilihat dari polutan yang seiring dengan bertambahnya waktu, polutan semakin menyebar dan konsentrasi semakin berkurang. Sementara dapat dikatakan mengalami adveksi karena polutan mengalami pergerakan atau perpindahan tempat.
 
 #### C=1    Ad=0     theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170069472-94c9e04e-7d3b-4b51-a563-a64a47923004.png)
