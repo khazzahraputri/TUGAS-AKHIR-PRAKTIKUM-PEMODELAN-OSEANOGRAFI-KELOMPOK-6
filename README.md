@@ -62,9 +62,9 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
 
 ## Pengaplikasian Adveksi-Difusi 2D dalam Bidang Oseanografi:
 
-1. Pemodelan adveksi difusi umumnya digunakan dalam pemodelan suatu cemaran pada suatu perairan, seperti tumpahan minyak pada area perairan maupun limbah panas dari suatu pembangkit listrik pada area sekitar perairan
+1. Pemodelan adveksi difusi umumnya digunakan dalam pemodelan suatu cemaran pada suatu perairan, seperti tumpahan minyak pada area perairan maupun limbah panas dari suatu pembangkit listrik pada area sekitar perairan.
 
-2. Pemodelan distribusi sedimen yang terjadi pada suatu perairan yang biasa dilakukan oleh para surveyor
+2. Pemodelan distribusi sedimen yang terjadi pada suatu perairan yang biasa dilakukan oleh para surveyor.
 
 ## Script Python untuk Pemodelan
 
@@ -174,7 +174,7 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
 ### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
 
 _Timestep_ 5
-![5](https://user-images.githubusercontent.com/105967656/170051890-2e4db21f-09bd-4c1e-9084-17d000196f30.jpeg)
+![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 _Timestep_ 50
 ![50](https://user-images.githubusercontent.com/105967656/170052107-46c26ae8-097c-43d5-b017-e252a83ac5d9.jpeg)
