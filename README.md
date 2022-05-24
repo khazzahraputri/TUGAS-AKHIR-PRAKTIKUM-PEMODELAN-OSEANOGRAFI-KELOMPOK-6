@@ -1,6 +1,13 @@
 # TUGAS-AKHIR-PRAKTIKUM-PEMODELAN-OSEANOGRAFI-KELOMPOK-16
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
+
 # AUTHORS (KELOMPOK 16)
+1. Desanta Mahardika Pranoto_26050120140147_Ose B
+2. Firly Nur Aini_26050120140079_Ose B
+3. Khoirunnisa Azzahra Putri_26050120120009_Ose A
+4. Nisrina Firdaus_26050120120007_Ose A
+
+
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
 
@@ -335,8 +342,80 @@ U   : Kecepatan sesaat (m/s)
 ![image](https://user-images.githubusercontent.com/105999278/169942421-16b7c95f-f9bc-487b-a121-d760da5a5166.png)
 
 
-# MODUL 4 : MODEL HIDRODINAMIKA 2 DIMENSI
+# MODUL 4 : MODEL HIDRODINAMIKA 2D
+## Skema
+Pemodelan 1D hanya memodelkan dalam satu arah yaitu x saja, misal hanya meninjau kedalamannya. Sementara pemodelan 2D meninjau juga arah yang lain tidak hanya satu arah tapi dua arah, yaitu x,y atau x,z, misal meninjau kedalaman dan luasannya.
+
 ## PERBEDAAN MODEL 1D DAN 2D
 ### Model 1D
+1. Cross-section tegak lurus dengan aliran sungai
+2. Water level uniform atau seragam sepanjang cross-section
+3. Kecepatan uniform sepanjang cross-section
+4. Kemiringan rendah
+
+### Model 2D
+1. Kecepatan arus dan gelombang tidak seragam
+2. Daerah yang di representasikan tidak hanya x, tapi (x,y) atau (x,z)
+3. Lebih cocok diterapkan pada kemiringan yang curam
+4. Kedalaman air tidak sama, terdapat perbedaan kedalaman
+
+## Konsep Model Hidrodinamika 2D dalam Oseanografi
+Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Contohnya ketika kita meninjau gelombang, seperti bentuk gelombangnya sinusoidal, berapa jumlah puncak dan gelombang, tapi ketika di lapangan gelombang dipengaruhi oleh pasang surut, angin, tekanan atmosfir yang memepengaruhi pergerakan gelombang. Ketika ditinjau secara 2D, perlu mennjau tekanan, pergerakan angin, yang mana meskipun arahnya berbeda akan menggerakkan fenomena gelombang tersebut. Hal-hal yang kita modelkan tidak akan sepenuhnya sesuai dengan keadaan dilapangan pasti akan ada anomali yang terjadi, seperti ketika memodelkan gelombang yang dipengaruhi oleh angin, kecepatan angin tidak akan konstan bertiup, bisa saja terjadi angin siklon tropis atau badai yang akan mempengaruhi nilai model yang kita proses,dan hal ini dapat diperhitungkan.
+
+## Contoh Penerapan
+1. Pemodelan gelombang karena angin
+2. pemodelan sampah plastik di laut
+3. Pemodelan coastal dynamics dan sedimentasi pantai
+
+## Langkah Mengerjakan Pemodelan
+1. Aplikasi Anaconda Prompt (miniconda 3) dibuka
+2. Matplotlib dan Siphon diinstall pada Anaconda Prompt (miniconda 3)
+![image](https://user-images.githubusercontent.com/106042080/170044390-ba6f0b7d-17ab-4980-a26f-e48798ef0a61.png)
+4. Jupyter Notebook dibuka, kemudian tulis script python seperti dibawah ini:
+**Script Python untuk Pemodelan**
+    import matplotlib.pyplot as plt
+
+    from siphon.simplewebservice.ndbc import NDBC
+
+    df=NDBC.realtime_observations('AAMC1') #Station ID
+    df.head()
+
+    #Time Series Plot
+    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(15, 15))
+    ax2b = ax2.twinx()
+
+    #Pressure
+    ax1.plot(df['time'],df['pressure'], color='red')
+    ax1.set_ylabel('Pressure [hPa]')
+    fig.suptitle('NAMA_NIM_KELAS', fontsize=25)
+
+    #Wind Speed, gust, direction
+    #ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
+    #ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+    ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+    ax2.set_ylabel('Wind Speed [m/s]')
+    ax2b.set_ylabel('Wind Direction')
+
+    #Water Temprature
+    ax3.plot(df['time'], df['water_temperature'], color='tab:green')
+    ax3.set_ylabel('Water Temperature [degC]')
+
+    plt.show()
+4. Pada Station ID script diubah sesuai dengan pembagian Station ID yang sudah ditentukan. (AAMC1)
+5. Script yang sudah disesuaikan dengan Station ID di run, kemudian hasilnya disimpan dan ditinjau.
+### Hasil Pemodelan
+![1](https://user-images.githubusercontent.com/106042080/170042268-83b4ce49-fe02-475a-9cb0-2b4aec26844c.png)
+![2](https://user-images.githubusercontent.com/106042080/170042285-145f2a6e-fbd8-4d49-8cb0-5e807ab9fd19.png)
+![3](https://user-images.githubusercontent.com/106042080/170042311-b109cb00-48bb-497e-800a-27f00f0c2cdc.png)
+6. Masuk di website NDBC-NOAA pada link berikut: NDBC-NOAA, lalu pada bagian search Station ID, cari Station ID yang sudah ditententukan pada kolom pencarian, dan lokasi buoy yang digunakan diidentifikasi
+![image](https://user-images.githubusercontent.com/106042080/170044259-794cf9ec-6de7-408d-aa9e-64280f3a4b10.png)
+8. Lokasi buoy yang digunakan dalam melakukan plot dan model hasil ditinjau apakah buoy tersebut terletak di tengah samudera atau terletak di dekat pesisir.
+![image](https://user-images.githubusercontent.com/106042080/170044298-f87ecd92-f035-453f-a2d5-75286c1e9c4b.png)
+10. Faktor lokasi yang diperoleh, dikaitkan dengan hasil plot dan model yang sudah didapat, lalu dianalisis dan cari korelasi antara nilai-nilai parameter yang dihasilkan.
+11. Hasil plot dan model yang dilakukan adalah untuk rentang waktu 45 hari. Lalu analisis juga apakah pada model yang dihasilkan memiliki anomali atau tidak
+![image](https://user-images.githubusercontent.com/106042080/170044014-d9b4345b-4657-47b5-af97-22987d2826e3.png)
+![image](https://user-images.githubusercontent.com/106042080/170044530-311779c1-afb7-4a81-a387-5a8f5561e1f5.png)
+
+## Pembahasan Hasil Pemodelan
 
 
