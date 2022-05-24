@@ -192,6 +192,8 @@ _Timestep_ 218
 
 ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
+![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png) ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png) ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
+
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
 Model Hidrodinamika merupakan suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air misalnya simulasi elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter dengan melibatkan konversi massa atau kontinuitas dan hukum momentum dalam perhitungannya. Pemodelan ini memerlukan waktu yang cukup lama dikarenakan _timestep_ yang digunakan harus kecil sehingga proses _running_ model akan lama.
