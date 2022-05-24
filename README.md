@@ -179,7 +179,7 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
 ### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
-    #### C=1.90 Ad=1.90
+#### C=1.90 Ad=1.90
     ![image](https://user-images.githubusercontent.com/106042080/170065162-3ea214dc-ef2f-43e1-b6f7-07b309d63632.png)
 
     _Timestep_ 5
