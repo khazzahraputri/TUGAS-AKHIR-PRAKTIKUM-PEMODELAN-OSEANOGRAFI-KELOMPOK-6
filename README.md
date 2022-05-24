@@ -19,17 +19,20 @@ Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke t
 ![image](https://user-images.githubusercontent.com/92772774/170080075-8bf1a584-7091-451c-a203-21add97bc3aa.png)
 
 **FTCS**
-Metode FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. 
+
+Metode FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. Persamaan matematis metode FTCS dinyatakan dalam persamaan berikut. 
 
 ![image](https://user-images.githubusercontent.com/92772774/170080364-47695310-e6a1-4444-ba62-d890bf50eaf7.png)
 
 **Leapfrog**
-Metode Leapfrog merupakan perluasan dari metode beda tengah terhadap ruang dan waktu. Skema Leapfrog didapat dari turunan dari deret taylor, sehingga skema ini bersifat konsisten
+
+Metode Leapfrog merupakan perluasan dari metode beda tengah terhadap ruang dan waktu. Skema Leapfrog didapat dari turunan dari deret taylor, sehingga skema ini bersifat konsisten. Persamaan matematis metode Leapfrog dinyatakan dalam persamaan berikut.
 
 ![image](https://user-images.githubusercontent.com/92772774/170080475-d66e16dc-f9ae-408f-96bb-b5cdd8744f13.png)
 
 **Upstream**
-Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Metode ini menggunakan  
+
+Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Karena nilai konsentrasi dalam komputer menjadi negatif, walaupun konsentrasinya poositif. Untuk itu metode ini dibuat untuk model positif dari konsentrasi di alam yang merujuk kelaut. Persamaan matematis metode FTCS dinyatakan dalam persamaan berikut.
 
 ![image](https://user-images.githubusercontent.com/92772774/170080546-9090672f-ea44-49dc-9890-5b7d63d8087f.png)
 
