@@ -374,38 +374,38 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
 ![image](https://user-images.githubusercontent.com/106042080/170044390-ba6f0b7d-17ab-4980-a26f-e48798ef0a61.png)
 4. Jupyter Notebook dibuka, kemudian tulis script python seperti dibawah ini:
     ### Script Python untuk Pemodelan
-    import matplotlib.pyplot as plt
+        import matplotlib.pyplot as plt
 
-    from siphon.simplewebservice.ndbc import NDBC
+        from siphon.simplewebservice.ndbc import NDBC
 
-    df=NDBC.realtime_observations('AAMC1') #Station ID
-    df.head()
+        df=NDBC.realtime_observations('AAMC1') #Station ID
+        df.head()
 
-    #Time Series Plot
-    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(15, 15))
-    ax2b = ax2.twinx()
+        #Time Series Plot
+        fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(15, 15))
+        ax2b = ax2.twinx()
 
-    #Pressure
-    ax1.plot(df['time'],df['pressure'], color='red')
-    ax1.set_ylabel('Pressure [hPa]')
-    fig.suptitle('NAMA_NIM_KELAS', fontsize=25)
+        #Pressure
+        ax1.plot(df['time'],df['pressure'], color='red')
+        ax1.set_ylabel('Pressure [hPa]')
+        fig.suptitle('NAMA_NIM_KELAS', fontsize=25)
 
-    #Wind Speed, gust, direction
-    #ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
-    #ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
-    ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
-    ax2.set_ylabel('Wind Speed [m/s]')
-    ax2b.set_ylabel('Wind Direction')
+        #Wind Speed, gust, direction
+        #ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
+        #ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+        ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+        ax2.set_ylabel('Wind Speed [m/s]')
+        ax2b.set_ylabel('Wind Direction')
 
-    #Water Temprature
-    ax3.plot(df['time'], df['water_temperature'], color='tab:green')
-    ax3.set_ylabel('Water Temperature [degC]')
+        #Water Temprature
+        ax3.plot(df['time'], df['water_temperature'], color='tab:green')
+        ax3.set_ylabel('Water Temperature [degC]')
 
-    plt.show()
+        plt.show()
 
 4. Pada Station ID script diubah sesuai dengan pembagian Station ID yang sudah ditentukan. (AAMC1)
 5. Script yang sudah disesuaikan dengan Station ID di run, kemudian hasilnya disimpan dan ditinjau.
-    ### Hasil Pemodelan
+    **Hasil Pemodelan**
     ![1](https://user-images.githubusercontent.com/106042080/170042268-83b4ce49-fe02-475a-9cb0-2b4aec26844c.png)
     ![2](https://user-images.githubusercontent.com/106042080/170042285-145f2a6e-fbd8-4d49-8cb0-5e807ab9fd19.png)
     ![3](https://user-images.githubusercontent.com/106042080/170042311-b109cb00-48bb-497e-800a-27f00f0c2cdc.png)
