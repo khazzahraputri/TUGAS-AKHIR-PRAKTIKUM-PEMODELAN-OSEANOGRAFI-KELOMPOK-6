@@ -11,6 +11,12 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 7.
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
+Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. Persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. 
+
+**ADVEKSI**
+Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Persamaan Gelombang Linear orde satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
+![image](https://user-images.githubusercontent.com/92772774/170056143-b5721a31-db7f-4722-af74-c32d98a88956.png)
+
 
 # MODUL 2 : ADVEKSI-DIFUSI 2D
 Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adveksi, dan dapat dianggap dua mekanisme yang terpisah. Adveksi adalah proses perpindahan panas sebagai akibat dari adanya aliran. Difusi adaalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah.
@@ -171,19 +177,16 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
-### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
+### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
 
 _Timestep_ 5
-
 ![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
 
 
 _Timestep_ 50
-
 ![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
 
 _Timestep_ 218
-
 ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
