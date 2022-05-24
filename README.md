@@ -1,27 +1,37 @@
 # TUGAS-AKHIR-PRAKTIKUM-PEMODELAN-OSEANOGRAFI-KELOMPOK-16
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
 
-
-
 # AUTHORS (KELOMPOK 16)
-1. Derio Tegar Kardia_26050120140159_Oseanografi B
-2. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
-3. Firly Nur Aini_26050120140079_Oseanografi B
-4. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
-5. Muhammad Zuldiansyah_26050120130081_Oseanografi A
-6. Nisrina Firdaus_26050120120007_Oseanografi A
+1. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
+2. Firly Nur Aini_26050120140079_Oseanografi B
+3. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
+4. Muhammad Zuldiansyah_26050120130081_Oseanografi A
+5. Nisrina Firdaus_26050120120007_Oseanografi A
+6.
 7.
-
-
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
 Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. Persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. 
 
-# ADVEKSI
+## ADVEKSI
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Persamaan Gelombang Linear orde satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
 
 ![image](https://user-images.githubusercontent.com/92772774/170056143-b5721a31-db7f-4722-af74-c32d98a88956.png)
 
+**FTCS**
+Metode FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. 
+
+![image](https://user-images.githubusercontent.com/92772774/170060797-05e53155-f97a-4597-99e5-8d44a0eb2074.png)
+
+**Leapfrog**
+Metode Leapfrog merupakan perluasan dari metode beda tengah terhadap ruang dan waktu. Skema Leapfrog didapat dari turunan dari deret taylor, sehingga skema ini bersifat konsisten
+
+![image](https://user-images.githubusercontent.com/92772774/170062957-faefe694-60ef-4b47-9df4-b21d371d4442.png)
+
+**Upstream**
+Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Metode ini menggunakan  
+
+![image](https://user-images.githubusercontent.com/92772774/170076985-5b1f8c98-a93e-489c-9f93-7bdf218b3fac.png)
 
 
 
@@ -184,33 +194,17 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
-### _Output_ Hasil Pemodelan Adveksi-Difusi 2D
-#### C=1.90    Ad=1.90   theta = 90
-![image](https://user-images.githubusercontent.com/106042080/170070798-5c3a02a1-bedf-45aa-84fd-e05483230287.png)
+### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
 
-#### C=1.90    Ad=1.90   theta = 150
-![image](https://user-images.githubusercontent.com/106042080/170070935-8c99787a-9393-4f4b-bdf1-c1ae58bfdc5c.png)
-
-#### C=1.90    Ad=1.90   theta = 225
-![image](https://user-images.githubusercontent.com/106042080/170071041-725f0868-23e7-4a01-a295-907579f0104b.png)
-
-#### C=1.90    Ad=1.90   theta = 405
-![image](https://user-images.githubusercontent.com/106042080/170071116-ba77699c-9654-4f55-b098-9fd4dd3fd5a8.png)
-
-Dari hasil pemodelan yang didapat, seiring dengan waktu berjalan, polutan akan bergerak mengikuti arus, yang sekaligus berdifusi, dan mengalami pengurangan nilai konsentrasi. Arah polutan ini dipengaruhi oleh vektor kecepatan u dan v. Polutan mengalami difusi juga adveksi, mengalami difusi dapat dilihat dari polutan yang seiring dengan bertambahnya waktu, polutan semakin menyebar dan konsentrasi semakin berkurang. Sementara dapat dikatakan mengalami adveksi karena polutan mengalami pergerakan atau perpindahan tempat.
-
-#### C=1    Ad=0     theta = 90
-![image](https://user-images.githubusercontent.com/106042080/170069472-94c9e04e-7d3b-4b51-a563-a64a47923004.png)
-
-Jika C=1 dan ad = 0, polutan mengalami pergerakan sesuai dengan arah theta, karena kecepatan polutan tidak sama dengan nol, atau memiliki kecepatan. Meskipun mengalami pergerakan, tetapi persebarannya tidak kesegala arah, peresebarannya hanya secara horizontal saja (mpenynebaran mengikuti pergerakan), hal ini karena koefisien difusi bernilai nol, yg mana koefisien difusi berpengaruh terhadap penyebaran polutan karena adanya perbedaan konsentrasi. Karena koefisien difusi bernilai nol, maka polutan ridak mengalami persebaran. Dan persebaran ke arah kanan ini disebabkan karena polutan bergerak ke arah kanan, sehingga terjadi persebaran horizontal yg disebabakan bukan karena difusi.
-
-#### C=0    Ad=1    theta = 90
-![image](https://user-images.githubusercontent.com/106042080/170073179-95a2523c-2286-4223-b1ff-7b58e9302754.png)
-
-Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak bergerak. Tetapi polutan tetap mengalami penyebaran, hanya saja, tidak disertai pergerakan polutan. Hal ini terjadi karena nilai C yang merupakan kecepatan polutan bernilai 0 sehingga tidak terjadi pergerakan, sementara koefisien difusi bernilai 1 sehingga terjadi persebaran polutan. Nilai C=0 ini juga menunjukkan koefisien adveksi, yang mana koefisien adveksi ini menunjukkan pergerakan (perpindahan) polutan, yang berarti dalam kasus ini polutan tidak mengalami pergerakan.
+_Timestep_ 5
+![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
 
 
+_Timestep_ 50
+![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
 
+_Timestep_ 218
+![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
@@ -383,23 +377,19 @@ U   : Kecepatan sesaat (m/s)
 ![image](https://user-images.githubusercontent.com/105999278/169942399-013af694-fbfc-4f26-8afa-b470176bf141.png)
 ![image](https://user-images.githubusercontent.com/105999278/169942421-16b7c95f-f9bc-487b-a121-d760da5a5166.png)
 
-Dari hasil pemodelan yang didapatkan terlihat pada awal grafik berbentuk mulus dan teratur, hingga akhirnya grafik menujukkan bentuk yang acak. Hal ini dapat terjadi karena pada awal grafik memiliki perhitungan yang masih sederhana dan nilai-nilai dari parameter oseanografi juga memberi pengaruh, dimana pada waktu awal, nilai-nilai parameter seperti amplitudo, kedalaman, kecepatan arus masih bernilai kecil atau sederhana, sehingga menghasilkan grafik yang alus, selain itu juga nilai-nilai di awal berasal dari asumsi kita, meskipun demikian bukan berarti nilai tersebut tidak sesuai dengan nilai yang ada dilapangan. Sementara grafik yang acak ini menunjukkan nilai persamaan yang sudah besar nilainya dan nilai ini menggunakan referensi dari nilai sebelumnya, juga sudah memiliki perhitungan yang kompleks yang lebih mendekati nilai nyata di lapangan, sehingga bentuk grafiknya lebih beragam.
-
-
-
 
 # MODUL 4 : MODEL HIDRODINAMIKA 2D
 ## Skema
 Pemodelan 1D hanya memodelkan dalam satu arah yaitu x saja, misal hanya meninjau kedalamannya. Sementara pemodelan 2D meninjau juga arah yang lain tidak hanya satu arah tapi dua arah, yaitu x,y atau x,z, misal meninjau kedalaman dan luasannya.
 
 ## Perbedaan Model 1D dan 2D
-### Model 1D
+    ### Model 1D
     1. Cross-section tegak lurus dengan aliran sungai
     2. Water level uniform atau seragam sepanjang cross-section
     3. Kecepatan uniform sepanjang cross-section
     4. Kemiringan rendah
 
-### Model 2D
+    ### Model 2D
     1. Kecepatan arus dan gelombang tidak seragam
     2. Daerah yang di representasikan tidak hanya x, tapi (x,y) atau (x,z)
     3. Lebih cocok diterapkan pada kemiringan yang curam
@@ -436,8 +426,8 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
         fig.suptitle('NAMA_NIM_KELAS', fontsize=25)
 
         #Wind Speed, gust, direction
-        ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
-        ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+        #ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
+        #ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
         ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
         ax2.set_ylabel('Wind Speed [m/s]')
         ax2b.set_ylabel('Wind Direction')
@@ -452,7 +442,7 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
 5. Script yang sudah disesuaikan dengan Station ID di run, kemudian hasilnya disimpan dan ditinjau.
     ### Hasil Pemodelan
     ![1](https://user-images.githubusercontent.com/106042080/170042268-83b4ce49-fe02-475a-9cb0-2b4aec26844c.png)
-    ![image](https://user-images.githubusercontent.com/106042080/170077011-fe18bf69-8291-40fe-ae7a-93bd89f62130.png)
+    ![2](https://user-images.githubusercontent.com/106042080/170042285-145f2a6e-fbd8-4d49-8cb0-5e807ab9fd19.png)
     ![3](https://user-images.githubusercontent.com/106042080/170042311-b109cb00-48bb-497e-800a-27f00f0c2cdc.png)
 6. Masuk di website NDBC-NOAA pada link berikut: NDBC-NOAA, lalu pada bagian search Station ID, cari Station ID yang sudah ditententukan pada kolom pencarian, dan lokasi buoy yang digunakan diidentifikasi
 ![image](https://user-images.githubusercontent.com/106042080/170044259-794cf9ec-6de7-408d-aa9e-64280f3a4b10.png)
