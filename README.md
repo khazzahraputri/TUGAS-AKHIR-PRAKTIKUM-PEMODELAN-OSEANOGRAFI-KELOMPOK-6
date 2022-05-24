@@ -436,8 +436,8 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
         fig.suptitle('NAMA_NIM_KELAS', fontsize=25)
 
         #Wind Speed, gust, direction
-        #ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
-        #ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+        ax2.plot(df['time'], df['wind_speed'], color='tab:brown')
+        ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
         ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
         ax2.set_ylabel('Wind Speed [m/s]')
         ax2b.set_ylabel('Wind Direction')
@@ -452,7 +452,7 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
 5. Script yang sudah disesuaikan dengan Station ID di run, kemudian hasilnya disimpan dan ditinjau.
     ### Hasil Pemodelan
     ![1](https://user-images.githubusercontent.com/106042080/170042268-83b4ce49-fe02-475a-9cb0-2b4aec26844c.png)
-    ![2](https://user-images.githubusercontent.com/106042080/170042285-145f2a6e-fbd8-4d49-8cb0-5e807ab9fd19.png)
+    ![image](https://user-images.githubusercontent.com/106042080/170077011-fe18bf69-8291-40fe-ae7a-93bd89f62130.png)
     ![3](https://user-images.githubusercontent.com/106042080/170042311-b109cb00-48bb-497e-800a-27f00f0c2cdc.png)
 6. Masuk di website NDBC-NOAA pada link berikut: NDBC-NOAA, lalu pada bagian search Station ID, cari Station ID yang sudah ditententukan pada kolom pencarian, dan lokasi buoy yang digunakan diidentifikasi
 ![image](https://user-images.githubusercontent.com/106042080/170044259-794cf9ec-6de7-408d-aa9e-64280f3a4b10.png)
