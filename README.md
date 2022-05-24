@@ -5,7 +5,7 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 1. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
 2. Firly Nur Aini_26050120140079_Oseanografi B
 3. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
-4. Muhammad Zuldiansyah_26050120130081
+4. Muhammad Zuldiansyah_26050120130081_Oseanografi A
 5. Nisrina Firdaus_26050120120007_Oseanografi A
 6.
 7.
@@ -17,7 +17,7 @@ Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adve
 
 Dasar dalam membangun model 2D untuk transpor adveksi adalah persamaan matematis sebagai berikut.
 
-![1 ad](https://user-images.githubusercontent.com/105967656/169827445-f5627e34-8a2e-4d83-821b-dbbb528bf7c7.png)
+![image](https://user-images.githubusercontent.com/105967656/170054778-3317c8fe-7379-49b1-a391-909acb895b3b.png)
 
 Sedangkan dalam membangun model 2D untuk transpor dengan mekanisme difusi, dibangun dari persamaan matematis sebagai berikut.
 
