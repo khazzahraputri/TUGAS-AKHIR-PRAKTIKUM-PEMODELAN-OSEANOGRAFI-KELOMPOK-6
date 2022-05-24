@@ -374,6 +374,7 @@ U   : Kecepatan sesaat (m/s)
 ![image](https://user-images.githubusercontent.com/105999278/169942399-013af694-fbfc-4f26-8afa-b470176bf141.png)
 ![image](https://user-images.githubusercontent.com/105999278/169942421-16b7c95f-f9bc-487b-a121-d760da5a5166.png)
 
+Dari hasil pemodelan yang didapatkan terlihat pada awal grafik berbentuk mulus dan teratur, hingga akhirnya grafik menujukkan bentuk yang acak. Hal ini dapat terjadi karena pada awal grafik memiliki perhitungan yang masih sederhana dan nilai-nilai dari parameter oseanografi juga memberi pengaruh, dimana pada waktu awal, nilai-nilai parameter seperti amplitudo, kedalaman, kecepatan arus masih bernilai kecil atau sederhana, sehingga menghasilkan grafik yang alus, selain itu juga nilai-nilai di awal berasal dari asumsi kita, meskipun demikian bukan berarti nilai tersebut tidak sesuai dengan nilai yang ada dilapangan. Sementara grafik yang acak ini menunjukkan nilai persamaan yang sudah besar nilainya dan nilai ini menggunakan referensi dari nilai sebelumnya, juga sudah memiliki perhitungan yang kompleks yang lebih mendekati nilai nyata di lapangan, sehingga bentuk grafiknya lebih beragam.
 
 # MODUL 4 : MODEL HIDRODINAMIKA 2D
 ## Skema
