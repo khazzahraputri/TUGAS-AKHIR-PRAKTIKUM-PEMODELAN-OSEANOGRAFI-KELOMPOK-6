@@ -2,7 +2,7 @@
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
 
 # AUTHORS (KELOMPOK 16)
-1. Derio Tegar Kardia_26050120140159
+1. Derio Tegar Kardia_26050120140159_Oseanografi B
 2. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
 3. Firly Nur Aini_26050120140079_Oseanografi B
 4. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
