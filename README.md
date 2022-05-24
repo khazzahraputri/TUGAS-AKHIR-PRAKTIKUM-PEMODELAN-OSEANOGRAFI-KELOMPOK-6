@@ -177,10 +177,10 @@ _Timestep_ 5
 ![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 _Timestep_ 50
-![50](https://user-images.githubusercontent.com/105967656/170052107-46c26ae8-097c-43d5-b017-e252a83ac5d9.jpeg)
+![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
 
 _Timestep_ 218
-![218](https://user-images.githubusercontent.com/105967656/170052183-7cbc3f62-dc72-4e7d-a4c3-8e53859164bc.jpeg)
+![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
