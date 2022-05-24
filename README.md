@@ -32,10 +32,14 @@ Metode Leapfrog merupakan perluasan dari metode beda tengah terhadap ruang dan w
 
 **Upstream**
 
-Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Karena nilai konsentrasi dalam komputer menjadi negatif, walaupun konsentrasinya poositif. Untuk itu metode ini dibuat untuk model positif dari konsentrasi di alam yang merujuk kelaut. Persamaan matematis metode FTCS dinyatakan dalam persamaan berikut.
+Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Karena nilai konsentrasi dalam komputer menjadi negatif, walaupun konsentrasinya positif. Untuk itu metode ini dibuat untuk model positif dari konsentrasi di alam yang merujuk kelaut. Persamaan matematis metode FTCS dinyatakan dalam persamaan berikut.
 
 ![image](https://user-images.githubusercontent.com/92772774/170080546-9090672f-ea44-49dc-9890-5b7d63d8087f.png)
 
+##DIFUSI 
+Difusi adalah sebuah proses di mana suatu zat bergerak dari konsentrasi tinggi ke rendah 
+
+![image](https://user-images.githubusercontent.com/92772774/170095121-35ac95bd-59df-4a7a-8d4d-1013df4ba04c.png)
 
 
 
