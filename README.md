@@ -16,7 +16,7 @@ Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelaj
 ## ADVEKSI
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Persamaan Gelombang Linear orde satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
 
-![image](https://user-images.githubusercontent.com/92772774/170078092-f040f93c-58f1-4be4-9dda-cb0cdf5e2cd3.png)
+![image](https://user-images.githubusercontent.com/92772774/170078428-491d8eed-3472-49d4-bde2-73cee6c35bbc.png)
 
 **FTCS**
 Metode FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. 
