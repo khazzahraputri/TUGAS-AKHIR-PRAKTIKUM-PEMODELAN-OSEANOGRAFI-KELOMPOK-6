@@ -8,7 +8,7 @@ Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan
 4. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
 5. Muhammad Zuldiansyah_26050120130081_Oseanografi A
 6. Nisrina Firdaus_26050120120007_Oseanografi A
-7.
+7. Julian Anshar Bachtiar_Oseanografi B
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
 Persamaan Adveksi-Difusi adalah persamaan matematis yang didesain untuk mempelajari fenomena transport polutan. Persamaan transpor merupakan salah satu persamaan differensial yang merepresentasikan sirkulasi aliran air di estuari dengan variabel C (Konsentrasi garam) sebagai fungsi ruang dan waktu. 
