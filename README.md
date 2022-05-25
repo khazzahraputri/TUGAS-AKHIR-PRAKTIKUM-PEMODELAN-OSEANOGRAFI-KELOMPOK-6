@@ -475,9 +475,9 @@ Stasiun ini terletak di Kota Alameda, California, Amerika Serikat. Kota ini terl
 # PENUTUP
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kami dari kelompok 16 mengucapkan terimakasih kepada:
 
-1. Prof. Denny Nugroho selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-2. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+1. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. Prof. Dr. Denny Nugroho Sugianto S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 3. Rikha Widiaratih, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-4. --- selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Dr. Elis Indriyanti S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 6. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi selama keberlangsungan praktikum Pemodelan Oseanografi ini
 7. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
