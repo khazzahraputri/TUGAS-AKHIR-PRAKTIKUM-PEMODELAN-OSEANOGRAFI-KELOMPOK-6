@@ -2,12 +2,12 @@
 Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
 
 # AUTHORS (KELOMPOK 16)
-1. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
-2. Firly Nur Aini_26050120140079_Oseanografi B
-3. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
-4. Muhammad Zuldiansyah_26050120130081_Oseanografi A
-5. Nisrina Firdaus_26050120120007_Oseanografi A
-6.
+1. Derio Tegar Kardia_26050120140159_Oseanografii B
+2. Desanta Mahardika Pranoto_26050120140147_Oseanografi B
+3. Firly Nur Aini_26050120140079_Oseanografi B
+4. Khoirunnisa Azzahra Putri_26050120120009_Oseanografi A
+5. Muhammad Zuldiansyah_26050120130081_Oseanografi A
+6. Nisrina Firdaus_26050120120007_Oseanografi A
 7.
 
 # MODUL 1 : ADVEKSI-DIFUSI 1D
@@ -42,7 +42,6 @@ Difusi adalah sebuah proses di mana suatu zat bergerak dari konsentrasi tinggi k
 ![image](https://user-images.githubusercontent.com/92772774/170095121-35ac95bd-59df-4a7a-8d4d-1013df4ba04c.png)
 
 ## Pengaplikasian Adveksi-Difusi 1D dalam Bidang Oseanografi 
-1. Pemodelan persebaran oil spill
 
 # MODUL 2 : ADVEKSI-DIFUSI 2D
 Proses penyebaran polutan terjadi melalui dua proses utama yaitu difusi dan adveksi, dan dapat dianggap dua mekanisme yang terpisah. Adveksi adalah proses perpindahan panas sebagai akibat dari adanya aliran. Difusi adaalah proses perpindahan panas berupa rambatan dari air dengan temperatur tinggi ke air dengan temperatur yang lebih rendah.
@@ -204,16 +203,25 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
     print('Nilai CFL:' +str(cfl) + ' dengan arah: ' +str(theta))
 
 ### _Output_ Hasil Pemodelan Adveksi-Disufi 2D
+### C = 1.90    Ad = 1.90    theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170156016-cd98a2cf-1162-4aac-a4e8-023486d4483b.png)
 
-_Timestep_ 5
-![image](https://user-images.githubusercontent.com/105967656/170052896-5a6da0cd-3312-4d52-9467-d9e4ce22a45f.png)
+### C = 1.90    Ad = 1.90    theta = 150
+![image](https://user-images.githubusercontent.com/106042080/170156072-3dabe821-8ecb-4b29-a2cc-40aee597fb28.png)
+
+### C = 1.90    Ad = 1.90    theta = 225
+![image](https://user-images.githubusercontent.com/106042080/170156144-f4df2464-1fef-4789-8c4c-a0cbbb80edb4.png)
+
+### C = 1.90    Ad = 1.90    theta = 405
+![image](https://user-images.githubusercontent.com/106042080/170156372-d2d209a3-63a7-46bb-acae-f76e8916863c.png)
+
+### C = 1    Ad = 0    theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170156420-db20e03f-b6d9-49de-b83f-8fc048746bf6.png)
+
+### C = 0    Ad = 1   theta = 90
+![image](https://user-images.githubusercontent.com/106042080/170156572-44c32018-1509-4664-ad10-2d2f76da89ca.png)
 
 
-_Timestep_ 50
-![image](https://user-images.githubusercontent.com/105967656/170052993-dbdbfd36-9246-4f20-a690-236e43eb9cd8.png)
-
-_Timestep_ 218
-![image](https://user-images.githubusercontent.com/105967656/170052608-58ce10a2-b0df-451a-919d-f7ee1b427e10.png)
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
 
