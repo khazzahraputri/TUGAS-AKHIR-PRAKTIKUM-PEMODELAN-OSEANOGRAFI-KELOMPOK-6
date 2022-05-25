@@ -227,11 +227,6 @@ Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak be
 
 Model Hidrodinamika merupakan suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air misalnya simulasi elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter dengan melibatkan konversi massa atau kontinuitas dan hukum momentum dalam perhitungannya. Pemodelan ini memerlukan waktu yang cukup lama dikarenakan _timestep_ yang digunakan harus kecil sehingga proses _running_ model akan lama.
 
-## Pengaplikasian Model Hidrodinamika 
-1.
-2.
-3.
-
 ## Persamaan yang Digunakan
 **1. Persamaan Momentum**
 
