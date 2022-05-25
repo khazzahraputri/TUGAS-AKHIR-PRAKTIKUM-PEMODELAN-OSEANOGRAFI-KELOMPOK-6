@@ -1,5 +1,5 @@
 # TUGAS-AKHIR-PRAKTIKUM-PEMODELAN-OSEANOGRAFI-KELOMPOK-16
-Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtory ini dapat bermanfaat.
+Repositori ini dibuat sebagai pemenuhan tugas akhir kelompok praktikum pemodelan oseanografi 2022. Repositori ini berisi 4 modul yang dipelajari selama praktikum pemodelan oseanografi yang terdiri dari script, hasil pemodelan dan pembahasan atau penjelasn hasilnya. pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Sys, Siphon. Semoga pembuatan reposirtori ini dapat bermanfaat.
 
 # AUTHORS (KELOMPOK 16)
 1. Derio Tegar Kardia_26050120140159_Oseanografii B
@@ -396,19 +396,20 @@ U   : Kecepatan sesaat (m/s)
 ![image](https://user-images.githubusercontent.com/105999278/169942399-013af694-fbfc-4f26-8afa-b470176bf141.png)
 ![image](https://user-images.githubusercontent.com/105999278/169942421-16b7c95f-f9bc-487b-a121-d760da5a5166.png)
 
+Dari pemodelan hasil pemodelan terlihat diawal grafik memiliki bentuk yang mulus dan teratur, hingga akhirnya grafik menunjukkan bentuk yang acak. Hal ini dapat terjadi karena pada awal grafik memiliki perhitungan yang masih sederhana dan nilai-nilai dari parameter oseanografi juga memberikan pengaruh terhadap hasil pemodelan. Dimana pada waktu awal, nilai-nilai parameter seperti amplitudo, kedalaman, kecepatan arus masih bernilai kecil atau sederhana, sehingga menghasilkan grafik yang alus, selain itu juga nilai-nilai di awal berasal dari asumsi kita, meskipun demikian bukan berarti nilai tersebut tidak sesuai dengan nilai yang ada dilapangan. Sementara grafik yang acak ini menunjukkan nilai persamaan yang sudah besar nilainya dan nilai ini menggunakan referensi dari nilai sebelumnya, juga sudah memiliki perhitungan yang kompleks yang lebih mendekati nilai nyata di lapangan, sehingga mengahsilkan bentuk grafik yang lebih beragam.
 
 # MODUL 4 : MODEL HIDRODINAMIKA 2D
 ## Skema
 Pemodelan 1D hanya memodelkan dalam satu arah yaitu x saja, misal hanya meninjau kedalamannya. Sementara pemodelan 2D meninjau juga arah yang lain tidak hanya satu arah tapi dua arah, yaitu x,y atau x,z, misal meninjau kedalaman dan luasannya.
 
 ## Perbedaan Model 1D dan 2D
-    ### Model 1D
+  ### Model 1D
     1. Cross-section tegak lurus dengan aliran sungai
     2. Water level uniform atau seragam sepanjang cross-section
     3. Kecepatan uniform sepanjang cross-section
     4. Kemiringan rendah
 
-    ### Model 2D
+  ### Model 2D
     1. Kecepatan arus dan gelombang tidak seragam
     2. Daerah yang di representasikan tidak hanya x, tapi (x,y) atau (x,z)
     3. Lebih cocok diterapkan pada kemiringan yang curam
@@ -473,3 +474,12 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
 ## Pembahasan Hasil Pemodelan
 Stasiun ini terletak di Kota Alameda, California, Amerika Serikat. Kota ini terletak di pulau kecil di sebelah Oakland, California di teluk San Francisco, maka bisa didimpulkan lokasi buoy ini terletak di dekat pesisir. Dari hasil grafik temperatur air, dari tanggal 22 maret 2022 sampai 1 Mei 2022, didapatkan suhu air maksimum yang hampir mendekati 19 derajat celcius yaitu pada kisaran tanggal antara 9 April 2022 sampai 11 April 2022, sementara suhu minimum yang didapatkan yaitu hampir mendekati 14 derajat celcius pada kisaran tanggal 22 Maret 2022. Dilihat dari bentuk grafiknya, suhu pada perairan ini relatif naik turun dalam rentang waktu 45 hari tersebut. Perairan ini memiliki suhu yang relatif rendah karena menurut Cloern et al. (2011), Teluk San Fransisco mendapat rata-rata 40% limpasan tahunan ke jaringan sungai yang dihasilkan dari pencairan salju limpasan dari pencairan salju. Aliran limpasan dan reservoir terkumpul di Sungai Sacramento dan San Joaquin, yang bertemu di Delta. Suhu air ini dipengaruhi oleh peningkatan suhu udara dan penurunan limpasan pencairan salju. Tekanan pada perairan ini juga menunjukkan grafik yang naik turun, dan terlihat cenderung stabil, dengan tekanan maksimum yaitu sekitar 1025 hPa sementara tekanan minimum yaitu sekitar 1005 hpa. Perbedaan tekanan ini dipengaruhi oleh pernedaan suhu atau pemanasan matahari yang di dapat, sehingga tekanannya juga berebda. Hal ini sesuai dengan yang dikatakan Sari et al. (2020), yang mengatakan bahwa perbedaan tekanan permukaan laut ini terjadi karena adanya hembusan angin sejajar pantai dan menyebabkan kekosongan di wilayah tepi samudra, sedangkan di wilayah tengah samudra terjadi penumpukan massa air dan membangkitkan arus permukaan. Dari grafik Wind speed, Wind Gust, dan Wind Direction kita dapat mengetahui kecepatan, arah, dan hembusan angin. Grafik warna coklat menunjukkan kecepatan angin yang mana rata-rata kecepatannya dilihat dari grafik berkisar antara 0-12 m/s, kecepatan maksimumnya memiliki kecepatan sekitar 12 m/s dan kecepatan minimumnya yaitu 0 m/s. Grafik warna olive menunjukkan hembusan angin, yang juga terlihat memiliki grafik yang naik turun. Sementara untuk arah angin ditunjukkan dengan grafik warna biru yang mana rata-rata arahnya dilihat dari grafik ke arah antara 250-300 deg. Terkadang arah angin menuju ke segala arah dengan tidak teratur hal ini ditunjukkan dengan bentuk grafik yang vertikal dari arah 0-360 deg pada waktu yang sama. Dari semua grafik terlihat tidak terjadi anomali, karna dari grafik cenderung memperlihatkan bentuk grafik yang naik turunnya cenderung stabil. Hanya saja untuk arah angin, terkadang dalam satu waktu memiliki arah yang menuju ke segala arah.
 
+# PENUTUP
+Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kami dari kelompok 16 mengucapkan terimakasih kepada:
+
+1. Prof. Denny Nugroho selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+3. Rikha Widiaratih, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. --- selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+6. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi selama keberlangsungan praktikum Pemodelan Oseanografi ini
+7. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
