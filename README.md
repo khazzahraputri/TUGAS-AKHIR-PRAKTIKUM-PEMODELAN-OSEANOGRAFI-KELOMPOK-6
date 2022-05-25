@@ -229,10 +229,6 @@ Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak be
 
 Model Hidrodinamika merupakan suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air misalnya simulasi elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter dengan melibatkan konversi massa atau kontinuitas dan hukum momentum dalam perhitungannya. Pemodelan ini memerlukan waktu yang cukup lama dikarenakan _timestep_ yang digunakan harus kecil sehingga proses _running_ model akan lama.
 
-## Pengaplikasian Model Hidrodinamika 
-1.
-2.
-3.
 
 ## Persamaan yang Digunakan
 **1. Persamaan Momentum**
@@ -477,9 +473,9 @@ Stasiun ini terletak di Kota Alameda, California, Amerika Serikat. Kota ini terl
 # PENUTUP
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kami dari kelompok 16 mengucapkan terimakasih kepada:
 
-1. Prof. Denny Nugroho selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+1. Prof. Dr. Denny Nugroho Sugianto S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 2. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 3. Rikha Widiaratih, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-4. --- selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Dr. Elis Indriyanti S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 6. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi selama keberlangsungan praktikum Pemodelan Oseanografi ini
 7. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
