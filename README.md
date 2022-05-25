@@ -214,13 +214,15 @@ Kriteria kestabilan yang digunakan untuk menyelesaikan pemodelan 2D adveksi difu
 
 ### C = 1.90    Ad = 1.90    theta = 405
 ![image](https://user-images.githubusercontent.com/106042080/170156372-d2d209a3-63a7-46bb-acae-f76e8916863c.png)
+Dari hasil pemodelan dapat diketahui bahwa seiring dengan waktu berjalan, polutan akan bergerak mengikuti arus, yang sekaligus berdifusi, dan mengalami pengurangan nilai konsentrasi. Arah polutan ini dipengaruhi oleh vektor kecepatan u dan v. Polutan mengalami difusi juga adveksi, mengalami difusi dapat dilihat dari polutan yang seiring dengan bertambahnya waktu, polutan semakin menyebar dan konsentrasi semakin berkurang. Sementara dapat dikatakan mengalami adveksi karena polutan mengalami pergerakan atau perpindahan tempat.
 
 ### C = 1    Ad = 0    theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170156420-db20e03f-b6d9-49de-b83f-8fc048746bf6.png)
+Jika C=1 dan ad = 0, polutan mengalami pergerakan sesuai dengan arah theta, karena kecepatan polutan tidak sama dengan nol, atau memiliki kecepatan. Meskipun mengalami pergerakan, tetapi persebarannya tidak kesegala arah peresebarannya hanya secara horizontal saja (mengikuti pergerakan polutan), hal ini karena koefisien difusi bernilai nol, yg mana koefisien difusi berpengaruh terhadap penyebaran polutan karena adanya perbedaan konsentrasi. Karena koefisien difusi bernilai nol, maka polutan tidak mengalami persebaran. Dan persebaran ke arah kanan ini disebabkan karena polutan bergerak ke arah kanan, sehingga terjadi persebaran horizontal yg disebabakan bukan karena difusi.
 
 ### C = 0    Ad = 1   theta = 90
 ![image](https://user-images.githubusercontent.com/106042080/170156572-44c32018-1509-4664-ad10-2d2f76da89ca.png)
-
+Jika C=0 dan ad = 1, pergerakan polutan akan diam ditempat atau polutan tidak bergerak. Tetapi polutan tetap mengalami penyebaran, hanya saja, tidak disertai pergerakan polutan. Hal ini terjadi karena nilai C yang merupakan kecepatan polutan bernilai 0 sehingga tidak terjadi pergerakan, sementara koefisien difusi bernilai 1 sehingga terjadi persebaran polutan. Nilai C=0 ini juga menunjukkan koefisien adveksi, yang mana koefisien adveksi ini menunjukkan pergerakan (perpindahan) polutan, yang berarti dalam kasus ini polutan tidak mengalami pergerakan.
 
 
 # MODUL 3 : MODEL HIDRODINAMIKA 1D
@@ -459,7 +461,7 @@ Hal-hal yang harus diperhatikan yaitu parameter dan anomali dari fenomenanya. Co
 5. Script yang sudah disesuaikan dengan Station ID di run, kemudian hasilnya disimpan dan ditinjau.
     ### Hasil Pemodelan
     ![1](https://user-images.githubusercontent.com/106042080/170042268-83b4ce49-fe02-475a-9cb0-2b4aec26844c.png)
-    ![2](https://user-images.githubusercontent.com/106042080/170042285-145f2a6e-fbd8-4d49-8cb0-5e807ab9fd19.png)
+    ![image](https://user-images.githubusercontent.com/106042080/170156688-c92ba5ef-6873-4999-9745-27444e8193db.png)
     ![3](https://user-images.githubusercontent.com/106042080/170042311-b109cb00-48bb-497e-800a-27f00f0c2cdc.png)
 6. Masuk di website NDBC-NOAA pada link berikut: NDBC-NOAA, lalu pada bagian search Station ID, cari Station ID yang sudah ditententukan pada kolom pencarian, dan lokasi buoy yang digunakan diidentifikasi
 ![image](https://user-images.githubusercontent.com/106042080/170044259-794cf9ec-6de7-408d-aa9e-64280f3a4b10.png)
